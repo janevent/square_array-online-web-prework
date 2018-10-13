@@ -8,4 +8,5 @@ def square_array(array)
 end
 
 def square_array_again(array)
-  new_array = 
+  new_array = array.collect{|x| x**2}
+  new_array
